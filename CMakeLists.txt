@@ -6,4 +6,5 @@ set(CMAKE_C_STANDARD 23)
 add_executable(Mastering_C main.c
         Queue.c
         GenericQueueDataStructure.c
-        LinkedList.c)
+        LinkedList.c
+        StackImplementation.c)

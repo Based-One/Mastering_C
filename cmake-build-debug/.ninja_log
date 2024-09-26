@@ -1,8 +1,7 @@
 # ninja log v6
 27	1485	7489137210545284	CMakeFiles/Mastering_C.dir/main.c.obj	a5b2489beed2c9d6
 119	267	7489137400066560	Mastering_C.exe	f8d27e6c2c6785d2
-4	118	7489137398915275	CMakeFiles/Mastering_C.dir/Queue.c.obj	3cde042c3b19f1a3
+13	367	7490756602872039	CMakeFiles/Mastering_C.dir/Queue.c.obj	3cde042c3b19f1a3
 109	1455	7489137211359121	CMakeFiles/Mastering_C.dir/GenericQueueDataStructure.c.obj	c63456eee8f8dcd9
 24	74	7490756588564571	clean	a687b3408d21400b
-13	367	7490756602872039	CMakeFiles/Mastering_C.dir/Queue.c.obj	3cde042c3b19f1a3
 44	378	7490756603167345	CMakeFiles/Mastering_C.dir/LinkedList.c.obj	22f8e145a3a3b970
