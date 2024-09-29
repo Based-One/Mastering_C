@@ -22,11 +22,11 @@ struct LinkedList* initLinkedList() {
     return list;
 }
 
-bool isEmpty(const struct LinkedList *list) {
+bool isEmptyLinkedList(const struct LinkedList *list) {
     return list->head == NULL;
 }
 
-struct Node* newNode(void* data) {
+struct Node* newNodeLinkedList(void* data) {
     struct Node* temp = malloc(sizeof(struct Node));
     if (temp == NULL) {
         printf("Error: Memory allocation for new node failed\n");

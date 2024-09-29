@@ -3,8 +3,9 @@ project(Mastering_C C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(Mastering_C main.c
+add_executable(Mastering_C "AiportSimulation (Aeroplanes) .c"
         Queue.c
         GenericQueueDataStructure.c
         LinkedList.c
-        StackImplementation.c)
+        StackImplementation.c
+)

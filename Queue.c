@@ -60,6 +60,7 @@ void* dequeue(struct Queue* q) {
         if (q->front == NULL)
             q->rear =NULL;
         free(temp);
+
         q->size--;
         return data;
     }
