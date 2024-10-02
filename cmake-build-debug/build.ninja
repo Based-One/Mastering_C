@@ -79,8 +79,8 @@ build CMakeFiles/Mastering_C.dir/StackImplementation.c.obj: C_COMPILER__Masterin
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
   OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
 
-build CMakeFiles/Mastering_C.dir/aaaaa.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/aaaaa.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\aaaaa.c.obj.d
+build CMakeFiles/Mastering_C.dir/Strings.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Strings.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Strings.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
   OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
@@ -93,7 +93,7 @@ build CMakeFiles/Mastering_C.dir/aaaaa.c.obj: C_COMPILER__Mastering_C_unscanned_
 #############################################
 # Link the executable Mastering_C.exe
 
-build Mastering_C.exe: C_EXECUTABLE_LINKER__Mastering_C_Debug CMakeFiles/Mastering_C.dir/AiportSimulation_(Aeroplanes)_.c.obj CMakeFiles/Mastering_C.dir/Queue.c.obj CMakeFiles/Mastering_C.dir/GenericQueueDataStructure.c.obj CMakeFiles/Mastering_C.dir/LinkedList.c.obj CMakeFiles/Mastering_C.dir/StackImplementation.c.obj CMakeFiles/Mastering_C.dir/aaaaa.c.obj
+build Mastering_C.exe: C_EXECUTABLE_LINKER__Mastering_C_Debug CMakeFiles/Mastering_C.dir/AiportSimulation_(Aeroplanes)_.c.obj CMakeFiles/Mastering_C.dir/Queue.c.obj CMakeFiles/Mastering_C.dir/GenericQueueDataStructure.c.obj CMakeFiles/Mastering_C.dir/LinkedList.c.obj CMakeFiles/Mastering_C.dir/StackImplementation.c.obj CMakeFiles/Mastering_C.dir/Strings.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Mastering_C.dir

@@ -206,9 +206,8 @@ void startSimulation(int time) {
 
         // Simple animation: simulate time passing with dots
         printf("Time advancing");
-        for (int i = 0; i < 3; ++i) {
+        for (int i = 0; i < 5; ++i) {
             printf(".");
-            fflush(stdout);
             // Simple delay (not accurate timing)
             for (volatile int j = 0; j < 1000000000; ++j);
         }
@@ -224,7 +223,7 @@ void startSimulation(int time) {
 int main() {
     srand(time(NULL));
 
-    startSimulation(2000);
+    startSimulation(20);
 
     return 0;
 }

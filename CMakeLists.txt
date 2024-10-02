@@ -8,4 +8,5 @@ add_executable(Mastering_C "AiportSimulation (Aeroplanes) .c"
         GenericQueueDataStructure.c
         LinkedList.c
         StackImplementation.c
+        Strings.c
 )
