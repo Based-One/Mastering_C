@@ -139,6 +139,7 @@ void startSimulation(int time) {
     RunWay run_way[MAX_RUNWAYS];
     int plane_id_counter = 0;
     int currentTime = 0;
+    int endingSimulation = time -10;
     Queue_Aeroplane* aeroplaneQueue = initQueue_Aeroplane();
 
     for (int i = 0; i < MAX_RUNWAYS; ++i) {
@@ -152,7 +153,6 @@ void startSimulation(int time) {
 
     while (currentTime <= time) {
         displayRunwaysAndQueue(run_way, aeroplaneQueue, currentTime);
-
         // Check if any runways have become free
         for (int i = 0; i < MAX_RUNWAYS; ++i) {
             if (run_way[i].occupied && run_way[i].busy_until <= currentTime) {
@@ -175,13 +175,24 @@ void startSimulation(int time) {
                 }
             }
         }
+if( currentTime < endingSimulation) {
+    while (nextArrival <= currentTime) {
 
-        while (nextArrival <= currentTime) {
-            Aeroplane aeroplane;
-            aeroplane.arrival_time = currentTime;
-            aeroplane.id = plane_id_counter++;
-            aeroplane.service_time = exponential(AVERAGE_SERVICE_TIME);
-            printf("Aeroplane %d has arrived at time %d.\n", aeroplane.id, currentTime);
+        Aeroplane aeroplane;
+        aeroplane.arrival_time = currentTime;
+        aeroplane.id = plane_id_counter++;
+        aeroplane.service_time = exponential(AVERAGE_SERVICE_TIME);
+        if (aeroplane.service_time >time) {
+            freeQueue_Aeroplane(aeroplaneQueue);
+            for (int i = 0; i < MAX_RUNWAYS; ++i) {
+                if (run_way[i].occupied) {
+                    
+                }
+                run_way[i].occupied = false;
+            }
+        }
+
+        printf("Aeroplane %d has arrived at time %d.\n", aeroplane.id, currentTime);
 
             bool aeroplaneAssigned = false;
             for (int i = 0; i < MAX_RUNWAYS; ++i) {
@@ -193,6 +204,7 @@ void startSimulation(int time) {
                     printf("Aeroplane %d is landing on Runway %d at time %d.\n", aeroplane.id, i + 1, currentTime);
                     break;
                 }
+
             }
 
             if (!aeroplaneAssigned) {
@@ -202,14 +214,19 @@ void startSimulation(int time) {
 
             nextArrival += exponential(AVERAGE_ARRIVAL_TIME);
             printf("Next arrival scheduled at time %.2f\n", nextArrival);
+
+    }
+}
+        else {
+            printf("No more new arrivals. Ending simulation");
         }
 
         // Simple animation: simulate time passing with dots
         printf("Time advancing");
-        for (int i = 0; i < 5; ++i) {
+        for (int i = 0; i < 2; ++i) {
             printf(".");
             // Simple delay (not accurate timing)
-            for (volatile int j = 0; j < 1000000000; ++j);
+            for (volatile int j = 0; j < 10000000; ++j);
         }
         printf("\n");
 
@@ -223,7 +240,7 @@ void startSimulation(int time) {
 int main() {
     srand(time(NULL));
 
-    startSimulation(20);
+    startSimulation(200);
 
     return 0;
 }
