@@ -9,4 +9,10 @@ add_executable(Mastering_C "AiportSimulation (Aeroplanes) .c"
         LinkedList.c
         StackImplementation.c
         Strings.c
+        Factorial.c
+        QuickSort.c
+        SortColors.c
+        Examen.c
+        BTree.c
+        HashTable.c
 )
