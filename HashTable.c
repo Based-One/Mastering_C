@@ -6,10 +6,6 @@
 //     char name[MAX_NAME];
 //     int age;
 // }Person;
-// // typedef struct {
-// //     void* data;
-// //     void* data;
-// // }HashTable;
 // Person * hash_table[MAX_HASH];
 //
 // unsigned int hash(const char* name) {
@@ -56,19 +52,28 @@
 //     hash_table[index] = p;
 //     return true;
 // }
+// // bool hashInsertSpecified(void* data, void* key) {
+// //     if(data == NULL) {
+// //         int index = hash(data);
+// //         if (hash_table[index] != )
+// //
+// //     }
+// //
+// //
+// // }
 //
 //
 //
 //
 //
-// int main() {
-// printf("Jacob=>%u\n",hash("Jacob"));
-//     printf("Juan=> %u\n",hash("Juan"));
-//     Person torres = {.name = "Torres",.age = 19 };
-//     Person rogers ={.name = "Rogers",.age = 19};
-//     hashInsertRandom(&torres);
-//     hashInsertRandom(&rogers);
-//     printTable();
-//
-//     return 0;
-// }
+// // int main() {
+// // printf("Jacob=>%u\n",hash("Jacob"));
+// //     printf("Juan=> %u\n",hash("Juan"));
+// //     Person torres = {.name = "Torres",.age = 19 };
+// //     Person rogers ={.name = "Rogers",.age = 19};
+// //     hashInsertRandom(&torres);
+// //     hashInsertRandom(&rogers);
+// //     printTable();
+// //
+// //     return 0;
+// // }

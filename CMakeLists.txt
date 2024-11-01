@@ -15,4 +15,5 @@ add_executable(Mastering_C "AiportSimulation (Aeroplanes) .c"
         Examen.c
         BTree.c
         HashTable.c
+        GenericHashTable.c
 )

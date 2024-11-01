@@ -127,38 +127,38 @@ void freeTree(struct TreeNode* node) {
     free(node);
 }
 
-int main() {
-    int data1 = 10;
-    int data2 = 5;
-    int data3 = 20;
-    int data4 = 3;
-    int data5 = 7;
-    int data6 = 15;
-
-    struct Tree* tree = settingUpTree(&data1);
-    insertNode(tree, setUpNode(&data2), cmp); // Insert 5
-    insertNode(tree, setUpNode(&data3), cmp); // Insert 20
-    insertNode(tree, setUpNode(&data4), cmp); // Insert 3
-    insertNode(tree, setUpNode(&data5), cmp); // Insert 7
-    insertNode(tree, setUpNode(&data6), cmp); // Insert 15
-
-    printf("Pre-order traversal of the tree:\n");
-    printPreOrder(tree->Root);
-    printf("\n");
-
-    printf("Full tree structure before:\n");
-    printFullTree(tree->Root, 0, 0);
-
-    // tree->Root = deleteNode(tree->Root, &data5, cmp); // Delete 7
-printf("---------\n");
-    printf("Tree flipped");
-    // printf("\nTree structure after deleting 7:\n");
-    // printFullTree(tree->Root, 0, 0);
-    flipTree(tree->Root);
-    printFullTree(tree->Root,0,0);
-    freeTree(tree->Root);
-    free(tree);
-
-
-    return 0;
-}
+// int main() {
+//     int data1 = 10;
+//     int data2 = 5;
+//     int data3 = 20;
+//     int data4 = 3;
+//     int data5 = 7;
+//     int data6 = 15;
+//
+//     struct Tree* tree = settingUpTree(&data1);
+//     insertNode(tree, setUpNode(&data2), cmp); // Insert 5
+//     insertNode(tree, setUpNode(&data3), cmp); // Insert 20
+//     insertNode(tree, setUpNode(&data4), cmp); // Insert 3
+//     insertNode(tree, setUpNode(&data5), cmp); // Insert 7
+//     insertNode(tree, setUpNode(&data6), cmp); // Insert 15
+//
+//     printf("Pre-order traversal of the tree:\n");
+//     printPreOrder(tree->Root);
+//     printf("\n");
+//
+//     printf("Full tree structure before:\n");
+//     printFullTree(tree->Root, 0, 0);
+//
+//     // tree->Root = deleteNode(tree->Root, &data5, cmp); // Delete 7
+// printf("---------\n");
+//     printf("Tree flipped");
+//     // printf("\nTree structure after deleting 7:\n");
+//     // printFullTree(tree->Root, 0, 0);
+//     flipTree(tree->Root);
+//     printFullTree(tree->Root,0,0);
+//     freeTree(tree->Root);
+//     free(tree);
+//
+//
+//     return 0;
+// }
