@@ -49,35 +49,35 @@ cmake_ninja_workdir = C$:/Users/esteb/CLionProjects/Mastering$ C/cmake-build-deb
 
 build cmake_object_order_depends_target_Mastering_C: phony || .
 
-build CMakeFiles/Mastering_C.dir/AiportSimulation_(Aeroplanes)_.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/AiportSimulation$ (Aeroplanes)$ .c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\AiportSimulation_(Aeroplanes)_.c.obj.d
+build CMakeFiles/Mastering_C.dir/Use_Cases/AiportSimulation_(Aeroplanes)_.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Use$ Cases/AiportSimulation$ (Aeroplanes)$ .c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Use_Cases\AiportSimulation_(Aeroplanes)_.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Use_Cases
 
-build CMakeFiles/Mastering_C.dir/Queue.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Queue.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\Queue.c.obj.d
+build CMakeFiles/Mastering_C.dir/Data_Structures/Queue.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Data$ Structures/Queue.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Data_Structures\Queue.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Data_Structures
 
-build CMakeFiles/Mastering_C.dir/GenericQueueDataStructure.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/GenericQueueDataStructure.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\GenericQueueDataStructure.c.obj.d
+build CMakeFiles/Mastering_C.dir/Data_Structures/GenericQueueDataStructure.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Data$ Structures/GenericQueueDataStructure.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Data_Structures\GenericQueueDataStructure.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Data_Structures
 
-build CMakeFiles/Mastering_C.dir/LinkedList.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/LinkedList.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\LinkedList.c.obj.d
+build CMakeFiles/Mastering_C.dir/Data_Structures/LinkedList.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Data$ Structures/LinkedList.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Data_Structures\LinkedList.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Data_Structures
 
-build CMakeFiles/Mastering_C.dir/StackImplementation.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/StackImplementation.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\StackImplementation.c.obj.d
+build CMakeFiles/Mastering_C.dir/Data_Structures/StackImplementation.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Data$ Structures/StackImplementation.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Data_Structures\StackImplementation.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Data_Structures
 
 build CMakeFiles/Mastering_C.dir/Strings.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Strings.c || cmake_object_order_depends_target_Mastering_C
   DEP_FILE = CMakeFiles\Mastering_C.dir\Strings.c.obj.d
@@ -85,47 +85,95 @@ build CMakeFiles/Mastering_C.dir/Strings.c.obj: C_COMPILER__Mastering_C_unscanne
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
   OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
 
-build CMakeFiles/Mastering_C.dir/Factorial.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Factorial.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\Factorial.c.obj.d
+build CMakeFiles/Mastering_C.dir/Use_Cases/Factorial.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Use$ Cases/Factorial.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Use_Cases\Factorial.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Use_Cases
 
-build CMakeFiles/Mastering_C.dir/QuickSort.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/QuickSort.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\QuickSort.c.obj.d
+build CMakeFiles/Mastering_C.dir/Algorithms/QuickSort.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Algorithms/QuickSort.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Algorithms\QuickSort.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Algorithms
 
-build CMakeFiles/Mastering_C.dir/SortColors.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/SortColors.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\SortColors.c.obj.d
+build CMakeFiles/Mastering_C.dir/LeetCodes/SortColors.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/LeetCodes/SortColors.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\LeetCodes\SortColors.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\LeetCodes
 
-build CMakeFiles/Mastering_C.dir/Examen.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Examen.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\Examen.c.obj.d
+build CMakeFiles/Mastering_C.dir/Data_Structures/BTree.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Data$ Structures/BTree.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Data_Structures\BTree.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Data_Structures
 
-build CMakeFiles/Mastering_C.dir/BTree.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/BTree.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\BTree.c.obj.d
+build CMakeFiles/Mastering_C.dir/Data_Structures/HashTable.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Data$ Structures/HashTable.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Data_Structures\HashTable.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Data_Structures
 
-build CMakeFiles/Mastering_C.dir/HashTable.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/HashTable.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\HashTable.c.obj.d
+build CMakeFiles/Mastering_C.dir/Data_Structures/GenericHashTable.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Data$ Structures/GenericHashTable.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Data_Structures\GenericHashTable.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Data_Structures
 
-build CMakeFiles/Mastering_C.dir/GenericHashTable.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/GenericHashTable.c || cmake_object_order_depends_target_Mastering_C
-  DEP_FILE = CMakeFiles\Mastering_C.dir\GenericHashTable.c.obj.d
+build CMakeFiles/Mastering_C.dir/Algorithms/BloomFilter/BloomFilter.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Algorithms/BloomFilter/BloomFilter.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Algorithms\BloomFilter\BloomFilter.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Mastering_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Algorithms\BloomFilter
+
+build CMakeFiles/Mastering_C.dir/Algorithms/BloomFilter/hashf.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Algorithms/BloomFilter/hashf.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Algorithms\BloomFilter\hashf.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Algorithms\BloomFilter
+
+build CMakeFiles/Mastering_C.dir/Algorithms/BloomFilter/bitArray.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Algorithms/BloomFilter/bitArray.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Algorithms\BloomFilter\bitArray.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Algorithms\BloomFilter
+
+build CMakeFiles/Mastering_C.dir/LeetCodes/TwoSum.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/LeetCodes/TwoSum.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\LeetCodes\TwoSum.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\LeetCodes
+
+build CMakeFiles/Mastering_C.dir/Algorithms/Dynamic_Programming/MaxConsecutiveSum.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Algorithms/Dynamic$ Programming/MaxConsecutiveSum.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Algorithms\Dynamic_Programming\MaxConsecutiveSum.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Algorithms\Dynamic_Programming
+
+build CMakeFiles/Mastering_C.dir/Algorithms/Round.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Algorithms/Round.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Algorithms\Round.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Algorithms
+
+build CMakeFiles/Mastering_C.dir/Algorithms/WordsFrecuency.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Algorithms/WordsFrecuency.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Algorithms\WordsFrecuency.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Algorithms
+
+build CMakeFiles/Mastering_C.dir/Algorithms/Huffman.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Algorithms/Huffman.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Algorithms\Huffman.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Algorithms
+
+build CMakeFiles/Mastering_C.dir/Algorithms/O.c.obj: C_COMPILER__Mastering_C_unscanned_Debug C$:/Users/esteb/CLionProjects/Mastering$ C/Algorithms/O.c || cmake_object_order_depends_target_Mastering_C
+  DEP_FILE = CMakeFiles\Mastering_C.dir\Algorithms\O.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mastering_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mastering_C.dir\Algorithms
 
 
 # =============================================================================
@@ -135,7 +183,7 @@ build CMakeFiles/Mastering_C.dir/GenericHashTable.c.obj: C_COMPILER__Mastering_C
 #############################################
 # Link the executable Mastering_C.exe
 
-build Mastering_C.exe: C_EXECUTABLE_LINKER__Mastering_C_Debug CMakeFiles/Mastering_C.dir/AiportSimulation_(Aeroplanes)_.c.obj CMakeFiles/Mastering_C.dir/Queue.c.obj CMakeFiles/Mastering_C.dir/GenericQueueDataStructure.c.obj CMakeFiles/Mastering_C.dir/LinkedList.c.obj CMakeFiles/Mastering_C.dir/StackImplementation.c.obj CMakeFiles/Mastering_C.dir/Strings.c.obj CMakeFiles/Mastering_C.dir/Factorial.c.obj CMakeFiles/Mastering_C.dir/QuickSort.c.obj CMakeFiles/Mastering_C.dir/SortColors.c.obj CMakeFiles/Mastering_C.dir/Examen.c.obj CMakeFiles/Mastering_C.dir/BTree.c.obj CMakeFiles/Mastering_C.dir/HashTable.c.obj CMakeFiles/Mastering_C.dir/GenericHashTable.c.obj
+build Mastering_C.exe: C_EXECUTABLE_LINKER__Mastering_C_Debug CMakeFiles/Mastering_C.dir/Use_Cases/AiportSimulation_(Aeroplanes)_.c.obj CMakeFiles/Mastering_C.dir/Data_Structures/Queue.c.obj CMakeFiles/Mastering_C.dir/Data_Structures/GenericQueueDataStructure.c.obj CMakeFiles/Mastering_C.dir/Data_Structures/LinkedList.c.obj CMakeFiles/Mastering_C.dir/Data_Structures/StackImplementation.c.obj CMakeFiles/Mastering_C.dir/Strings.c.obj CMakeFiles/Mastering_C.dir/Use_Cases/Factorial.c.obj CMakeFiles/Mastering_C.dir/Algorithms/QuickSort.c.obj CMakeFiles/Mastering_C.dir/LeetCodes/SortColors.c.obj CMakeFiles/Mastering_C.dir/Data_Structures/BTree.c.obj CMakeFiles/Mastering_C.dir/Data_Structures/HashTable.c.obj CMakeFiles/Mastering_C.dir/Data_Structures/GenericHashTable.c.obj CMakeFiles/Mastering_C.dir/Algorithms/BloomFilter/BloomFilter.c.obj CMakeFiles/Mastering_C.dir/Algorithms/BloomFilter/hashf.c.obj CMakeFiles/Mastering_C.dir/Algorithms/BloomFilter/bitArray.c.obj CMakeFiles/Mastering_C.dir/LeetCodes/TwoSum.c.obj CMakeFiles/Mastering_C.dir/Algorithms/Dynamic_Programming/MaxConsecutiveSum.c.obj CMakeFiles/Mastering_C.dir/Algorithms/Round.c.obj CMakeFiles/Mastering_C.dir/Algorithms/WordsFrecuency.c.obj CMakeFiles/Mastering_C.dir/Algorithms/Huffman.c.obj CMakeFiles/Mastering_C.dir/Algorithms/O.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Mastering_C.dir

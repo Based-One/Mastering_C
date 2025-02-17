@@ -34,8 +34,8 @@
 //     quickSort(nums,0,numsSize-1);
 //     printArray(nums,numsSize);
 // }
-// int main() {
-//     int nums[] = {2,0,2,1,1,0};
-//     sortColors(nums,6);
-//     return 0;
-// }
+// // int main() {
+// //     int nums[] = {2,0,2,1,1,0};
+// //     sortColors(nums,6);
+// //     return 0;
+// // }

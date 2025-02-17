@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -223,7 +224,7 @@ if( currentTime < endingSimulation) {
 
         // Simple animation: simulate time passing with dots
         printf("Time advancing");
-        for (int i = 0; i < 2; ++i) {
+        for (int i = 0; i < 5; ++i) {
             printf(".");
             // Simple delay (not accurate timing)
             for (volatile int j = 0; j < 1000000000; ++j);
@@ -237,10 +238,10 @@ if( currentTime < endingSimulation) {
     printf("Simulation ended.\n");
 }
 
-// int main() {
-//     srand(time(NULL));
-//
-//     startSimulation(200);
-//
-//     return 0;
-// }
+int main() {
+    srand(time(NULL));
+
+    startSimulation(200);
+
+    return 0;
+}
