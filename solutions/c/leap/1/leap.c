@@ -1,0 +1,13 @@
+#include "leap.h"
+
+
+bool leap_year(int year){
+	if (year % 100 == 0 && year % 400 ){
+	return true;
+	}
+	if (year % 4 == 0) {
+	return true;
+	}
+	return false;
+
+}
